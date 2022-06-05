@@ -7,9 +7,9 @@
 /* цвет фона нав  ECECEC */
 /* цвет фона  чем мы занимаемся E5E5E5 */
 
-/* стили заголовка H1 */
-h1 {color: #FFFFFF;}
-h1 {background-color: #2F303A;}
+/* стили hero */
+.hero-title {color: #FFFFFF; background-color: #2F303A;}
+.hero-link {color: #FFFFFF; background-color: #2196F3;}
 
 /* стили логотипа */
 .logo {color: #2196F3;}
