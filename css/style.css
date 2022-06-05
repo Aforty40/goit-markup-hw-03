@@ -41,6 +41,21 @@ nav .link:hover,
 .approach h3 {color: #212121;}
 
 
+
+/* чем занимаемся */
+.work >h2 {color: #212121;}
+
+
+
+/* наша команда */
+.team > h2 {
+      color: #212121;}
+ .team .name {
+     color: #212121;
+  }
+
+
+
 /* стили адреса */
 
 address {
