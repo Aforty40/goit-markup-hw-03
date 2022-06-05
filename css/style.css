@@ -37,17 +37,21 @@ nav .link:hover,
 
 /* особенности подхода */
 
+.approach {background-color: #FFFFFF;}
 .approach > h2 {color:#212121}
 .approach h3 {color: #212121;}
 
 
 
 /* чем занимаемся */
+
+.work {background-color: #FFFFFF;}
 .work >h2 {color: #212121;}
 
 
 
 /* наша команда */
+.team {background-color: #f5f4fa;}
 .team > h2 {
       color: #212121;}
  .team .name {
@@ -57,6 +61,7 @@ nav .link:hover,
 
 
 /* стили адреса */
+footer {background-color: #2F303A ;}
 
 address {
    color: #ffffff;
