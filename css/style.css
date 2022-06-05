@@ -7,11 +7,17 @@
 /* цвет фона нав  ECECEC */
 /* цвет фона  чем мы занимаемся E5E5E5 */
 
+/* стили заголовка H1 */
 h1 {color: #FFFFFF;}
 h1 {background-color: #2F303A;}
 
+/* стили логотипа */
 .logo {color: #2196F3;}
 .logo-nav {color: #000000}
 .logo-footer {color: #FFFFFF; background-color: #2F303A;}
 
+/* стили адреса */
 
+address {color: #ffffff; background-color: #2F303A;}
+.home-address {color: #FFFFFF;}
+.contacts {color: rgba(255, 255, 255, .6);}
