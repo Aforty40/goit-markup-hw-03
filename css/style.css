@@ -7,23 +7,51 @@
 /* цвет фона нав  ECECEC */
 /* цвет фона  чем мы занимаемся E5E5E5 */
 
-/* стили hero */
-.hero-title {color: #FFFFFF; background-color: #2F303A;}
-.hero-link {color: #FFFFFF; background-color: #2196F3;}
+body {color: #757575;}
 
 /* стили логотипа */
 .logo {color: #2196F3;}
 .logo-nav {color: #000000}
-.logo-footer {color: #FFFFFF; background-color: #2F303A;}
+.logo-footer {color: #FFFFFF; 
+   background-color: #2F303A;}
+
+
+/* стили heder */
+
+header {background-color: #ececec;}
+nav .link {color: #212121;}
+nav .link:hover, 
+ nav .link:focus {color: #2196F3;}
+.link-contact {color: #757575;}
+.link-contact:hover,
+ .link-contact:focus {color:#2196F3}
+
+/* стили hero */
+.hero-title {color: #FFFFFF; 
+   background-color: #2F303A;}
+
+.hero-link {
+   color: #FFFFFF;
+   background-color: #2196F3;
+}
+
+/* особенности подхода */
+
+.approach > h2 {color:#212121}
+.approach h3 {color: #212121;}
+
 
 /* стили адреса */
 
-address {color: #ffffff; background-color: #2F303A;}
-.home-address {color: #FFFFFF;}
-.contacts {color: rgba(255, 255, 255, .6);}
+address {
+   color: #ffffff;
+   background-color: #2F303A;
+}
 
-nav .link {color: #212121;}
-nav .link:hover,  nav .link:focus {color: #2196F3;}
-.link-contact {color: #757575;}
-.link-contact:hover, .link-contact:focus {color:#2196F3}
+.home-address {
+   color: #FFFFFF;
+}
 
+.contacts {
+   color: rgba(255, 255, 255, .6);
+}
