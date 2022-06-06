@@ -42,7 +42,8 @@ header {background-color: #ececec;}
 .link-nav:focus {color:var(--color-accent);}
 .link-contact {color: var(--title-color-general);}
 .link-contact:hover,
- .link-contact:focus {color: var(--color-accent);}
+.link-contact:focus {color: var(--color-accent);}
+.nav .current {color: var(--color-accent);}
 
 /* стили hero */
 .hero-title {color: var(--text-color-secondary); 
@@ -91,6 +92,6 @@ address {
    color: var(--text-color-secondary);
 }
 
-.contacts {
+.link-address-contact {
    color: var(--text-address-contacts);
 }
