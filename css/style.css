@@ -20,8 +20,9 @@
    --bgr-color-primary: #ffffff;
    --text-color-secondary: #ffffff;
    --text-address-contacts: rgba(255, 255, 255, .6);
-   
-   
+   --bg-button: #188ce8;
+
+      
 }
 
 body {color: var(--text-color-general);}
@@ -36,9 +37,9 @@ body {color: var(--text-color-general);}
 /* стили heder */
 
 header {background-color: #ececec;}
-nav .link {color: var(--title-color-general);}
-nav .link:hover, 
- nav .link:focus {color:var(--color-accent);}
+.link-nav {color: var(--title-color-general);}
+.link-nav:hover, 
+.link-nav:focus {color:var(--color-accent);}
 .link-contact {color: var(--title-color-general);}
 .link-contact:hover,
  .link-contact:focus {color: var(--color-accent);}
@@ -49,7 +50,7 @@ nav .link:hover,
 
 .button {
    color: var(--text-color-secondary);
-   background-color:var(--color-accent);
+   background-color: var(--bg-button);
 }
 
 /* особенности подхода */
@@ -83,7 +84,7 @@ footer {background-color: var(--bgr-color-dark);}
 
 address {
    color: var(--text-color-secondary);
-   background-color: var(--bgr-color-dark);
+   /* background-color: var(--bgr-color-dark); */
 }
 
 .home-address {
