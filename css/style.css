@@ -27,6 +27,8 @@
 
 body {color: var(--text-color-general);}
 
+ul {list-style: none}
+
 /* стили логотипа */
 .logo {color:var(--color-accent);}
 .logo-nav {color: var(--logo-nav-color);}
