@@ -70,11 +70,11 @@ nav .link:hover,
 
 /* наша команда */
 .team {background-color: var(--bgr-color-team);}
-.team > h2 {
+.team-title {
       color: var(--title-color-general);}
- .team .name {
+ .team-name {
      color: var(--title-color-general);}
- .post {color: var(text-color-general);}    
+ .team-post {color: var(text-color-general);}    
 
 
 
