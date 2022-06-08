@@ -6,6 +6,7 @@
 /* цвет фона наша команда F5F4FA */
 /* цвет фона нав  ECECEC */
 /* цвет фона  чем мы занимаемся E5E5E5 */
+/* цвет фона кнопок портфолио F5F4FA*/
 
 :root {
 
@@ -21,6 +22,8 @@
    --text-color-secondary: #ffffff;
    --text-address-contacts: rgba(255, 255, 255, .6);
    --bg-button: #188ce8;
+   --bg-portfolio: #e5e5e5;
+   --bg-portfolio-button: #F5F4FA;
 
       
 }
@@ -97,3 +100,17 @@ address {
 .link-address-contact {
    color: var(--text-address-contacts);
 }
+
+.project-text {color: var(--text-color-general);}
+
+.project-name {color: var(--title-color-general);}
+
+button {color: var(--title-color-general);
+background-color: var(----bg-portfolio-button);
+}
+
+
+button:hover,
+button:focus {color: var(--text-color-secondary); background-color: var(--color-accent);}
+
+.portfolio {background-color: var(--bg-portfolio);}
