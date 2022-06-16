@@ -26,7 +26,7 @@
    --bg-portfolio-button: #F5F4FA;
      
 }
-
+a {text-decoration: none;}
 
 body {color: var(--text-color-general);
    font-family: roboto, sans-serif;
@@ -35,11 +35,22 @@ body {color: var(--text-color-general);
 ul {list-style: none}
 
 /* стили логотипа */
-.logo {color:var(--color-accent); font-family: raleway, sans-serif;}
-.logo-nav {color: var(--logo-nav-color); font-family: raleway, sans-serif;}
-.logo-footer {color: var(--text-color-secondary); 
+.logo {color:var(--color-accent);} 
+   
+.logo-nav {color: var(--logo-nav-color); 
+   font-family: raleway, sans-serif;}
+.logo-footer {color: var(--text-color-secondary);
    background-color: var(--bgr-color-dark);
    font-family: raleway, sans-serif;}
+
+  .logo, .logo-nav, .logo-footer {
+
+      font-family: raleway, sans-serif;
+         font-size: 26px;
+         line-height: 1.2;
+         letter-spacing: .03em;
+      }
+  }
 
 
 /* стили heder */
