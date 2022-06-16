@@ -24,19 +24,22 @@
    --bg-button: #188ce8;
    --bg-portfolio: #e5e5e5;
    --bg-portfolio-button: #F5F4FA;
-
-      
+     
 }
 
-body {color: var(--text-color-general);}
+
+body {color: var(--text-color-general);
+   font-family: roboto, sans-serif;
+}
 
 ul {list-style: none}
 
 /* стили логотипа */
-.logo {color:var(--color-accent);}
-.logo-nav {color: var(--logo-nav-color);}
+.logo {color:var(--color-accent); font-family: raleway, sans-serif;}
+.logo-nav {color: var(--logo-nav-color); font-family: raleway, sans-serif;}
 .logo-footer {color: var(--text-color-secondary); 
-   background-color: var(--bgr-color-dark);}
+   background-color: var(--bgr-color-dark);
+   font-family: raleway, sans-serif;}
 
 
 /* стили heder */
