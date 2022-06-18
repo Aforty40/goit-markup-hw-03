@@ -114,16 +114,25 @@ header {background-color: #ececec;}
 
 .work {background-color: var(--bgr-color-primary);}
 .work >h2 {color: var(--title-color-general);}
-
-
+ h2 {font-size: 36px;
+     font-weight: 700; 
+     line-height: 1.17;
+     letter-spacing: .03em;
+   ;}
 
 /* наша команда */
-.team {background-color: var(--bgr-color-team);}
+.team {background-color: var(--bgr-color-team);
+      font-size: 16px;
+      line-height: 1.19;
+      letter-spacing: .03eml;}
 .team-title {
-      color: var(--title-color-general);}
+      color: var(--title-color-general);
+      ;}
  .team-name {
-     color: var(--title-color-general);}
- .team-post {color: var(text-color-general);}    
+     color: var(--title-color-general);
+     font-weight: 500;}
+ .team-post {color: var(text-color-general);
+      font-weight: 400;}    
 
 
 
