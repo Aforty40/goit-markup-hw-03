@@ -40,9 +40,8 @@ ul {list-style: none}
 .logo-nav {color: var(--logo-nav-color); 
    font-family: raleway, sans-serif;}
 .logo-footer {color: var(--text-color-secondary);
-   background-color: var(--bgr-color-dark);
-   font-family: raleway, sans-serif;}
-
+   background-color: var(--bgr-color-dark);}
+   
   .logo, .logo-nav, .logo-footer {
 
       font-family: raleway, sans-serif;
@@ -50,13 +49,21 @@ ul {list-style: none}
          line-height: 1.2;
          letter-spacing: .03em;
       }
-  }
+  
 
 
 /* стили heder */
 
 header {background-color: #ececec;}
-.link-nav {color: var(--title-color-general);}
+
+.nav, .link-contact {
+   font-weight: 500;
+      font-size: 14px;
+      line-height: 1.15;
+      letter-spacing: .02em;
+      }
+.link-nav {color: var(--title-color-general);
+         }
 .link-nav:hover, 
 .link-nav:focus {color:var(--color-accent);}
 .link-contact {color: var(--title-color-general);}
