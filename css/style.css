@@ -52,13 +52,13 @@ ul {list-style: none}
   
 
 
-/* стили heder */
+/* стили header */
 
 header {background-color: #ececec;}
 
 .nav, .link-contact {
-   font-weight: 500;
       font-size: 14px;
+      font-weight: 500;     
       line-height: 1.15;
       letter-spacing: .02em;
       }
@@ -73,11 +73,23 @@ header {background-color: #ececec;}
 
 /* стили hero */
 .hero-title {color: var(--text-color-secondary); 
-   background-color: var(--bgr-color-dark);}
+   background-color: var(--bgr-color-dark);
+   font-size: 44px;
+   font-weight: 900;
+   line-height: 1,16;
+   letter-spacing: .06em;
+   text-align: center;
+
+}
 
 .button {
    color: var(--text-color-secondary);
    background-color: var(--bg-button);
+   font-size: 16px;
+   font-weight: 700;
+   line-height: 1.6;
+   letter-spacing: .06em;
+   text-align: center;
 }
 
 /* особенности подхода */
