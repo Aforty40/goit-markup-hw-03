@@ -30,6 +30,7 @@ a {text-decoration: none;}
 
 body {color: var(--text-color-general);
    font-family: roboto, sans-serif;
+   letter-spacing: .03em;
 }
 
 ul {list-style: none}
@@ -47,7 +48,7 @@ ul {list-style: none}
       font-family: raleway, sans-serif;
          font-size: 26px;
          line-height: 1.2;
-         letter-spacing: .03em;
+         /* letter-spacing: .03em; */
       }
   
 
@@ -114,8 +115,10 @@ header {background-color: #ececec;}
 
 .work {background-color: var(--bgr-color-primary);}
 .work >h2 {color: var(--title-color-general);}
+
+
  h2 {font-size: 36px;
-     font-weight: 700; 
+        font-weight: 700; 
      line-height: 1.17;
      letter-spacing: .03em;
    ;}
@@ -123,8 +126,8 @@ header {background-color: #ececec;}
 /* наша команда */
 .team {background-color: var(--bgr-color-team);
       font-size: 16px;
-      line-height: 1.19;
-      letter-spacing: .03eml;}
+      line-height: 1.19;}
+      /* letter-spacing: .03eml;} */
 .team-title {
       color: var(--title-color-general);
       ;}
@@ -141,23 +144,41 @@ footer {background-color: var(--bgr-color-dark);}
 
 address {
    color: var(--text-color-secondary);
-   /* background-color: var(--bgr-color-dark); */
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 1.46;}
+   /* letter-spacing: .03em   ; */
+
+  
 }
 
 .home-address {
    color: var(--text-color-secondary);
+   
 }
 
 .link-address-contact {
    color: var(--text-address-contacts);
 }
 
-.project-text {color: var(--text-color-general);}
+.project-type {color: var(--text-color-general);
+               font-size: 16px;
+               font-weight: 400;
+               line-height: 1.6;}
 
-.project-name {color: var(--title-color-general);}
+.project-name {color: var(--title-color-general);
+               font-size: 18px;
+                  font-weight: 700;
+                  line-height: 1.71;
+                  letter-spacing: .06em;
+}
 
 button {color: var(--title-color-general);
-background-color: var(----bg-portfolio-button);
+      background-color: var(----bg-portfolio-button);
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 1.14;
+      letter-spacing: .02em;
 }
 
 
@@ -165,3 +186,12 @@ button:hover,
 button:focus {color: var(--text-color-secondary); background-color: var(--color-accent);}
 
 .portfolio {background-color: var(--bg-portfolio);}
+
+
+.text {
+   color: var(--text-color-secondary);
+   
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 1.33;
+}
