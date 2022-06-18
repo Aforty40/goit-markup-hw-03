@@ -76,7 +76,7 @@ header {background-color: #ececec;}
    background-color: var(--bgr-color-dark);
    font-size: 44px;
    font-weight: 900;
-   line-height: 1,16;
+   line-height: 1,14;
    letter-spacing: .06em;
    text-align: center;
 
@@ -94,10 +94,19 @@ header {background-color: #ececec;}
 
 /* особенности подхода */
 
-.approach {background-color: var(--bgr-color-primary);}
+.approach {background-color: var(--bgr-color-primary);
+    font-size: 14px;}
 .approach-h2 {color:var(--title-color-general);}
-.approach-h3 {color: var(--title-color-general);}
-.approach-text {color: var(text-color-general);}
+.approach-h3 {color: var(--title-color-general);
+      text-transform: uppercase;
+      font-weight: 700;
+      line-height: 1.14;
+      letter-spacing: .03em;
+      }
+.approach-text {color: var(text-color-general);
+      font-weight: 400;
+      line-height: 1.46;
+      letter-spacing: .02emal;}
 
 
 
