@@ -150,16 +150,15 @@ address {
    /* letter-spacing: .03em   ; */
 
   
-}
 
 .home-address {
    color: var(--text-color-secondary);
    
-}
+   }
 
 .link-address-contact {
    color: var(--text-address-contacts);
-}
+      }
 
 .project-type {color: var(--text-color-general);
                font-size: 16px;
@@ -171,7 +170,14 @@ address {
                   font-weight: 700;
                   line-height: 1.71;
                   letter-spacing: .06em;
-}
+               }
+
+.project-text {
+               color: var(--text-color-secondary);
+               font-size: 18px;
+               font-weight: 400;
+               line-height: 1.33;
+               }
 
 button {color: var(--title-color-general);
       background-color: var(----bg-portfolio-button);
@@ -179,7 +185,7 @@ button {color: var(--title-color-general);
       font-weight: 500;
       line-height: 1.14;
       letter-spacing: .02em;
-}
+      }
 
 
 button:hover,
@@ -188,10 +194,3 @@ button:focus {color: var(--text-color-secondary); background-color: var(--color-
 .portfolio {background-color: var(--bg-portfolio);}
 
 
-.text {
-   color: var(--text-color-secondary);
-   
-   font-size: 18px;
-   font-weight: 400;
-   line-height: 1.33;
-}
