@@ -26,6 +26,9 @@
    --bg-portfolio-button: #F5F4FA;
      
 }
+
+h1, h2, h3 {margin: 0;}
+
 a {text-decoration: none;}
 
 body {color: var(--text-color-general);
@@ -80,10 +83,15 @@ header {background-color: #ececec;}
    line-height: 1,14;
    letter-spacing: .06em;
    text-align: center;
+   
+  
 
 }
 
+
+
 .button {
+   display: inline-block;
    color: var(--text-color-secondary);
    background-color: var(--bg-button);
    font-size: 16px;
