@@ -91,17 +91,18 @@ outline: 2px solid tomato;}
 
 /* стили hero */
 
-.hero {outline: 2px solid teal;}
+.hero {outline: 2px solid teal;
+       width: 1600px; height: 600px;
+       text-align: center; 
+       background-color: var(--bgr-color-dark); }
 
 .hero-title {color: var(--text-color-secondary); 
-   background-color: var(--bgr-color-dark);
+  
    font-size: 44px;
    font-weight: 900;
    line-height: 1,14;
    letter-spacing: .06em;
-   text-align: center;
-   
-  
+   margin-bottom: 30px;
 
 }
 
@@ -116,7 +117,7 @@ outline: 2px solid tomato;}
    line-height: 1.6;
    letter-spacing: .06em;
    text-align: center;
-   width: 200px; height: 50px;
+   width: 225px; height: 50px;
    padding: 16px 32px;
    border-radius: 4px;
     
