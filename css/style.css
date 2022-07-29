@@ -37,7 +37,9 @@ body {color: var(--text-color-general);
    margin: 0;
 }
 
-ul {list-style: none}
+ul {display: block;   
+   list-style: none;
+   margin: 0; padding: 0;}
 
 /* стили логотипа */
 .logo {color:var(--color-accent);} 
@@ -66,6 +68,7 @@ header {background-color: #ececec;}
       font-weight: 500;     
       line-height: 1.15;
       letter-spacing: .02em;
+     
       }
 .link-nav {color: var(--title-color-general);
          }
@@ -76,7 +79,20 @@ header {background-color: #ececec;}
 .link-contact:focus {color: var(--color-accent);}
 .nav .current {color: var(--color-accent);}
 
+
+.container {margin-left: auto; margin-right: auto;
+/* height: 100px; background-color: tomato;  */
+width: 1200px; padding: 0 15px;
+outline: 2px solid tomato;}
+
+
+
+
+
 /* стили hero */
+
+.hero {outline: 2px solid teal;}
+
 .hero-title {color: var(--text-color-secondary); 
    background-color: var(--bgr-color-dark);
    font-size: 44px;
@@ -92,7 +108,7 @@ header {background-color: #ececec;}
 
 
 .button {
-   display: block;
+   display: inline-block;
    color: var(--text-color-secondary);
    background-color: var(--bg-button);
    font-size: 16px;
@@ -100,8 +116,10 @@ header {background-color: #ececec;}
    line-height: 1.6;
    letter-spacing: .06em;
    text-align: center;
-  
-   
+   width: 200px; height: 50px;
+   padding: 16px 32px;
+   border-radius: 4px;
+    
    
 }
 
