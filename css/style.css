@@ -94,7 +94,8 @@ outline: 2px solid tomato;}
 .hero {outline: 2px solid teal;
        width: 1600px; height: 600px;
        text-align: center; 
-       background-color: var(--bgr-color-dark); }
+       background-color: var(--bgr-color-dark); 
+       margin-bottom: 90px; }
 
 .hero-title {color: var(--text-color-secondary); 
   
@@ -127,18 +128,24 @@ outline: 2px solid tomato;}
 /* особенности подхода */
 
 .approach {background-color: var(--bgr-color-primary);
-    font-size: 14px;}
-.approach-h2 {color:var(--title-color-general);}
+      font-size: 14px;
+       margin-bottom: 60px;}
+.approach-h2 {color:var(--title-color-general);
+      text-align: center;}
+   /* margin-bottom: 10px;} */
 .approach-h3 {color: var(--title-color-general);
       text-transform: uppercase;
       font-weight: 700;
       line-height: 1.14;
       letter-spacing: .03em;
+      margin-bottom: 10px;
       }
 .approach-text {color: var(text-color-general);
       font-weight: 400;
       line-height: 1.46;
-      letter-spacing: .02emal;}
+      letter-spacing: .02emal;
+      margin: 0;
+   }
 
 
 
