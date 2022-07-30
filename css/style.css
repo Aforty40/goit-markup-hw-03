@@ -190,7 +190,8 @@ outline: 2px solid tomato;}
 /* стили адреса */
 footer {background-color: var(--bgr-color-dark);}
 
-.footer-p {margin: 0;}
+.footer-p {margin: 0;
+            padding: 60px 0 20px 0;}
 
 address {
    color: var(--text-color-secondary);
@@ -199,7 +200,8 @@ address {
    line-height: 1.46;}
    /* letter-spacing: .03em   ; */
 
-  
+  .address {width: 230px;
+            height: 80px;}
 
 .home-address {
    color: var(--text-color-secondary);
