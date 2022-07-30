@@ -47,7 +47,8 @@ ul {display: block;
 .logo-nav {color: var(--logo-nav-color); 
    font-family: raleway, sans-serif;}
 .logo-footer {color: var(--text-color-secondary);
-   background-color: var(--bgr-color-dark);}
+   background-color: var(--bgr-color-dark);
+   margin: 0;}
    
   .logo, .logo-nav, .logo-footer {
 
@@ -151,8 +152,11 @@ outline: 2px solid tomato;}
 
 /* чем занимаемся */
 
+.work {margin-bottom: 100px;}
+
 .work {background-color: var(--bgr-color-primary);}
-.work >h2 {color: var(--title-color-general);}
+.work-title {color: var(--title-color-general);
+   margin-bottom: 50px;}
 
 
  h2 {font-size: 36px;
@@ -160,26 +164,33 @@ outline: 2px solid tomato;}
      line-height: 1.17;
      letter-spacing: .03em;
       text-align: center;
-      margin-bottom: 50px;}
+     }
 
 /* наша команда */
 .team {background-color: var(--bgr-color-team);
       font-size: 16px;
-      line-height: 1.19;}
+      line-height: 1.19;
+      margin-bottom: 100px;}
       /* letter-spacing: .03eml;} */
 .team-title {
       color: var(--title-color-general);
-      ;}
+      margin-bottom: 50px;}
  .team-name {
      color: var(--title-color-general);
-     font-weight: 500;}
+     font-weight: 500;
+      margin: 30px 0 10px 0; 
+      }
  .team-post {color: var(text-color-general);
-      font-weight: 400;}    
+      font-weight: 400;
+      margin: 0 0 30px 0;
+      }    
 
 
 
 /* стили адреса */
 footer {background-color: var(--bgr-color-dark);}
+
+.footer-p {margin: 0;}
 
 address {
    color: var(--text-color-secondary);
