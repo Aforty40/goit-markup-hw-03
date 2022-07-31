@@ -212,24 +212,11 @@ address {
    color: var(--text-address-contacts);
       }
 
-.project-type {color: var(--text-color-general);
-               font-size: 16px;
-               font-weight: 400;
-               line-height: 1.6;}
 
-.project-name {color: var(--title-color-general);
-               font-size: 18px;
-                  font-weight: 700;
-                  line-height: 1.71;
-                  letter-spacing: .06em;
-               }
+         .portfolio-nav {margin-bottom: 90px;}
 
-.project-text {
-               color: var(--text-color-secondary);
-               font-size: 18px;
-               font-weight: 400;
-               line-height: 1.33;
-               }
+
+
 
 button {color: var(--title-color-general);
       background-color: var(----bg-portfolio-button);
@@ -237,12 +224,54 @@ button {color: var(--title-color-general);
       font-weight: 500;
       line-height: 1.14;
       letter-spacing: .02em;
+      border-radius: 4px;
+      height: 38px;
+      padding: 6px 22px;
+      border-width: 0;
       }
+
+      .all {width: 73px;}
+            /* padding: 6px 22px;} */
+      .web-sites {width: 128px;}
+      .application {width: 145px;}
+      .design {width: 103px;}
+      .marketing {width: 130px;}
 
 
 button:hover,
 button:focus {color: var(--text-color-secondary); background-color: var(--color-accent);}
 
-.portfolio {background-color: var(--bg-portfolio);}
 
+.filter {margin-bottom: 34px;}
+
+.portfolio {background-color: var(--bg-portfolio);
+            margin-bottom: 100px;}
+
+         
+.project-type {color: var(--text-color-general);
+               font-size: 16px;
+               font-weight: 400;
+               line-height: 1.6;
+               margin: 0;
+               width:322px;
+               height: 30px;}
+
+.project-name {color: var(--title-color-general);
+               font-size: 18px;
+                  font-weight: 700;
+                  line-height: 1.71;
+                  letter-spacing: .06em;
+                  text-align: left;
+                  width: 322px;
+                  height: 36px;
+                  margin-top: 20px;
+                  margin-bottom: 4px;
+               }
+
+.project-text {
+               color: var(--text-color-secondary);
+               font-size: 18px;
+               font-weight: 400;
+               line-height: 1.33;
+               margin: 0;}
 
