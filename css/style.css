@@ -96,7 +96,9 @@ outline: 2px solid tomato;}
        width: 1600px; height: 600px;
        text-align: center; 
        background-color: var(--bgr-color-dark); 
-       margin-bottom: 90px; }
+       margin-bottom: 90px; 
+      margin-left: auto;
+      margin-right: auto; }
 
 .hero-title {color: var(--text-color-secondary); 
   
@@ -128,9 +130,12 @@ outline: 2px solid tomato;}
 
 /* особенности подхода */
 
+
+
 .approach {background-color: var(--bgr-color-primary);
       font-size: 14px;
-       margin-bottom: 60px;}
+      margin-bottom: 60px;
+     }
 .approach-h2 {color:var(--title-color-general);
       text-align: center;}
    /* margin-bottom: 10px;} */
