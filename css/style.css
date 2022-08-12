@@ -41,6 +41,16 @@ ul {display: block;
    list-style: none;
    margin: 0; padding: 0;}
 
+
+      .container {
+         margin-left: auto;
+         margin-right: auto;
+         /* height: 100px; background-color: tomato;  */
+         width: 1200px;
+         padding: 0 15px;
+         outline: 2px solid tomato;
+      }
+
 /* стили логотипа */
 .logo {color:var(--color-accent);} 
    
@@ -64,15 +74,23 @@ ul {display: block;
 
 header {background-color: #ececec;}
 
-.nav, .link-contact {
+.main-nav {display: flex;}
+.main-nav .item {outline: 1px solid tomato;}
+.main-nav .item {margin-right: 50px;}
+.main-nav .item:last-child {margin-right: 0;}
+
+
+
+
+nav, .link-contact {
       font-size: 14px;
       font-weight: 500;     
       line-height: 1.15;
-      letter-spacing: .02em;
-     
+      letter-spacing: .02em;     
       }
-.link-nav {color: var(--title-color-general);
-         }
+
+
+.link-nav {color: var(--title-color-general);}
 .link-nav:hover, 
 .link-nav:focus {color:var(--color-accent);}
 .link-contact {color: var(--title-color-general);}
@@ -81,10 +99,7 @@ header {background-color: #ececec;}
 .nav .current {color: var(--color-accent);}
 
 
-.container {margin-left: auto; margin-right: auto;
-/* height: 100px; background-color: tomato;  */
-width: 1200px; padding: 0 15px;
-outline: 2px solid tomato;}
+
 
 
 
