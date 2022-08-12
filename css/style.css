@@ -74,12 +74,22 @@ ul {display: block;
 
 header {background-color: #ececec;}
 
+.header {display: flex;
+align-items:center;
+height: 80px;}
+
+
 .main-nav {display: flex;}
-.main-nav .item {outline: 1px solid tomato;}
+.main-nav {margin-left: 100px;}
 .main-nav .item {margin-right: 50px;}
 .main-nav .item:last-child {margin-right: 0;}
 
-
+.contacts {display: flex;}
+.contacts {margin-left: auto;}
+.contacts .item {
+      margin-right: 50px;}
+    
+.contacts .item:last-child {margin-right: 0;}
 
 
 nav, .link-contact {
@@ -96,14 +106,11 @@ nav, .link-contact {
 .link-contact {color: var(--title-color-general);}
 .link-contact:hover,
 .link-contact:focus {color: var(--color-accent);}
-.nav .current {color: var(--color-accent);}
+.main-nav .current {color: var(--color-accent);}
 
 
-
-
-
-
-
+.link-nav {padding-top: 32px;
+            padding-bottom: 32px;}
 
 /* стили hero */
 
