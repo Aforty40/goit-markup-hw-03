@@ -114,7 +114,7 @@ nav, .link-contact {
 
 /* стили hero */
 
-.hero {outline: 2px solid teal;
+.hero {
        width: 1600px; height: 600px;
        text-align: center; 
        background-color: var(--bgr-color-dark); 
@@ -262,13 +262,22 @@ address {
    color: var(--text-address-contacts);
       }
 
+/* Portfolio */
 
-         .portfolio-nav {margin-bottom: 90px;}
+.filter {
+   margin-bottom: 50px;
+}
+
+         .portfolio-filter {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 50px;}
 
 
+button {margin-right: 8px;
 
 
-button {color: var(--title-color-general);
+      color: var(--title-color-general);
       background-color: var(----bg-portfolio-button);
       font-size: 14px;
       font-weight: 500;
@@ -280,19 +289,22 @@ button {color: var(--title-color-general);
       border-width: 0;
       }
 
+
+
       .all {width: 73px;}
             /* padding: 6px 22px;} */
       .web-sites {width: 128px;}
       .application {width: 145px;}
       .design {width: 103px;}
-      .marketing {width: 130px;}
+      .marketing {width: 130px;
+      margin-right: 0;}
 
 
 button:hover,
 button:focus {color: var(--text-color-secondary); background-color: var(--color-accent);}
 
 
-.filter {margin-bottom: 34px;}
+
 
 .portfolio {background-color: var(--bg-portfolio);
             margin-bottom: 100px;}
