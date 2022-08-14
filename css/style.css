@@ -48,7 +48,7 @@ ul {display: block;
          /* height: 100px; background-color: tomato;  */
          width: 1200px;
          padding: 0 15px;
-         outline: 2px solid tomato;
+        
       }
 
 /* стили логотипа */
@@ -208,6 +208,15 @@ margin-right: 30px;}
      }
 
 /* наша команда */
+
+.our-team 
+{display: flex;}
+
+.our-team .item 
+{margin-right: 30px;}
+ 
+.our-team .item:last-child {margin-right: 0;} 
+
 .team {background-color: var(--bgr-color-team);
       font-size: 16px;
       line-height: 1.19;
