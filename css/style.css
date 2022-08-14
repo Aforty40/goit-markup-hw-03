@@ -264,6 +264,10 @@ address {
 
 /* Portfolio */
 
+.portfolio {
+   background-color: var(--bg-portfolio);
+}
+
 .filter {
    margin-bottom: 50px;
 }
@@ -306,9 +310,11 @@ button:focus {color: var(--text-color-secondary); background-color: var(--color-
 
 
 
-.portfolio {background-color: var(--bg-portfolio);
-            margin-bottom: 100px;}
 
+/* Projects */
+
+.projects-list {display: flex;
+                  flex-wrap: wrap;}
          
 .project-type {color: var(--text-color-general);
                font-size: 16px;
