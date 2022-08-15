@@ -72,11 +72,16 @@ ul {display: block;
 
 /* стили header */
 
-header {background-color: #ececec;}
+.header {
+   display: flex;
+   align-items: center;
+   height: 80px;
+}
 
-.header {display: flex;
-align-items:center;
-height: 80px;}
+header {background-color: var(--bgr-color-primary);      
+      border-bottom: 1px solid #ececec;}
+.header     
+         {}
 
 
 .main-nav {display: flex;}
@@ -265,6 +270,7 @@ address {
 /* Portfolio */
 
 .portfolio {
+   margin-bottom: 90px;
    background-color: var(--bg-portfolio);
 }
 
@@ -315,7 +321,20 @@ button:focus {color: var(--text-color-secondary); background-color: var(--color-
 
 .projects-list {display: flex;
                   flex-wrap: wrap;}
-         
+               
+
+  .projects-list .item {
+               margin-right: 30px;
+               margin-bottom: 30px;
+            border-bottom: 1px solid #eeeeee;}  
+
+  .projects-list .item:nth-child(3n) 
+               {margin-right: 0;}
+
+   .projects-list .item:nth-child(n+7)
+               {margin-bottom: 0;}
+
+
 .project-type {color: var(--text-color-general);
                font-size: 16px;
                font-weight: 400;
